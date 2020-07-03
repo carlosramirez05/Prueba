@@ -15,7 +15,7 @@ public class WebDriver {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get("https://www.latam.com/es_co/");
+        driver.get("https://www.banistmo.com/wps/portal/banistmo/personas/");
         SerenityWebdriverManager.inThisTestThread().setCurrentDriverTo(driver);
         return driver;
     }
